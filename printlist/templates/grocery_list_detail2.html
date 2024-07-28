@@ -1,0 +1,63 @@
+<!-- templates/grocery_list_detail.html -->
+<!DOCTYPE html>
+<html>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            align-items: center;
+        }
+        table, th, td {
+            border: 1px solid black;
+            align-items: center;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        .header {
+            white-space: pre-line; 
+            margin-left: 9px;
+        }
+    </style>
+
+<body bgcolor = #CAEEC4>
+
+    <div class="header">
+        <p><b>{{ header }}</b></p>
+    </div>
+    
+    
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan = '2'>Description </th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for key, value in groceries.items %}
+                <tr>
+                    <!-- For ONLY ENGLISH
+                    <td colspan = '2'>{{ value.english_name }}</td>
+                    <td>{{ value.quantity }}</td>-->
+                    
+                    <td>{{ value.english_name }}</td>
+                    <td>{{ value.tamil_name }}</td>
+                    <td>{{ value.quantity }}</td>
+                </tr>
+            {% empty %}
+                <tr>
+                    <td colspan="3">No groceries available for this list.</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <h2>Notes</h2>
+    <p>{{ notes }}</p>
+
+    
+</body>
+</html>

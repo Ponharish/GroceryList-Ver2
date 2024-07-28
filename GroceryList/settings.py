@@ -38,7 +38,9 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "homePage",
+    "homepage",
+    "createlist",
+    "printlist",
 ]
 
 MIDDLEWARE = [
@@ -56,7 +58,9 @@ ROOT_URLCONF = "GroceryList.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [os.path.join(BASE_DIR, 'homePage/templates'),],
+        "DIRS": [os.path.join(BASE_DIR, 'homepage/templates'),
+                os.path.join(BASE_DIR, 'createlist/templates'),
+                os.path.join(BASE_DIR, 'printlist/templates'),],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -81,7 +85,9 @@ DATABASES = {
         "NAME": BASE_DIR / "db.sqlite3",
     }
 }
-
+LANGUAGE_CODE = 'ta'  # Tamil language code
+USE_I18N = True
+USE_L10N = True
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators

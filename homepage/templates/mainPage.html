@@ -1,0 +1,96 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Groceries</title>
+        
+    </head>
+    <style>
+
+        .header {
+            background-color: rgb(238, 232, 196);
+        }
+        
+        .header img {
+            float: left;
+            width: 100px;
+            height: 100px;
+            padding-left: 25px;
+            background-color: rgb(238, 232, 196);
+        }
+
+        .header h1 {
+            position: relative;
+            top: 18px;
+            left: 10px;
+            text-align: center;
+            
+        }
+        .Navigation {
+            text-align: center;
+        }
+        
+        
+        
+
+        .error {
+          text-align: center;
+          color: red;
+          font-size: 22px;
+        }
+        .circular-button {
+            display: inline-block;
+            border-radius: 50%; /* This keeps the button circular */
+            width: 300px;      /* Increased width */
+            height: 150px;     /* Increased height */
+            line-height: 150px; /* Match this to the height to vertically center the text */
+            text-align: center;
+            color: rgb(10, 6, 221);
+            background-color: rgb(246, 243, 227);
+            font-size: 20px;   /* Increased font size */
+            font-weight: bold;
+            text-decoration: none;
+            margin: 30px;
+            cursor: pointer;
+            border: none;
+            outline: none;
+        }
+
+        
+
+        .circular-button:hover {
+            opacity: 0.8;
+        }
+
+        
+    </style>
+    <body bgcolor = #CAEEC4>
+
+        <div class = "header">
+            <br>
+            
+            
+            <font color = #377CDE><h1>Groceries</h1></font>
+
+            <br><br>
+            <hr color=#00008B>
+        </div>
+
+        
+
+        <div class = "Navigation">
+            <a href = "createlist"><button class="circular-button">Create List</button></a><br>
+            <a href = "printlist"><button class="circular-button">Print List</button></a>
+            <br><br>
+        </div>
+
+ 
+       
+        
+
+        <div class = "error">
+            <P> </P>
+        </div>
+        
+    </body>
+</html>

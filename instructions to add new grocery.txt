@@ -1,0 +1,5 @@
+#TO ADD NEW GROCERY
+
+Add it to groceryform1 or groceryform2 (as required)
+update grocerylist1.py or grocerylist2.py (as required)
+update the template - grocery_form_list_1.html or grocery_form_list_2.html
