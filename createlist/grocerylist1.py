@@ -160,7 +160,7 @@ GROCERIES_1 = {
         'quantity': '',
     },
     'motchaibean': {
-        'english_name': 'Moth Bean',
+        'english_name': 'Motcha Bean',
         'tamil_name': 'மொச்சை',
         'quantity': '',
     },
