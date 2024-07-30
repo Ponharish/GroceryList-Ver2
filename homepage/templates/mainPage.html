@@ -6,6 +6,15 @@
         
     </head>
     <style>
+        html, body {
+        height: 100%;
+        margin: 0;
+    }
+
+    .content {
+        min-height: calc(100vh - 50px); /* Adjust 50px to the height of your footer */
+        padding-bottom: 50px; /* Same as the height of your footer */
+    }
 
         .header {
             background-color: rgb(238, 232, 196);
@@ -62,10 +71,24 @@
             opacity: 0.8;
         }
 
+       
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 50px; /* Adjust this to the height of your footer */
+            
+            text-align: center;
+            line-height: 10px; /* Center text vertically */
+            font-size: 14px;
+            color: #666;
+        }
+
         
     </style>
     <body bgcolor = #CAEEC4>
-
+        <div class="content">
         <div class = "header">
             <br>
             
@@ -91,6 +114,11 @@
         <div class = "error">
             <P> </P>
         </div>
+    </div>
+        <footer>
+            <p>Page version: 2.2 
+                | Last updated on : 30th July 2024</p>
+        </footer>
         
     </body>
 </html>

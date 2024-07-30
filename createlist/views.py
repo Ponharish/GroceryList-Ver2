@@ -55,11 +55,12 @@ def createlistformlist1(request):
             for key, value in form.cleaned_data.items():
                 
                 item_key = key.rsplit('_', 1)[0]
-                groceries_data[item_key] = {
-                    'english_name': GROCERIES_1[item_key]['english_name'],
-                    'tamil_name': GROCERIES_1[item_key]['tamil_name'],
-                    'quantity': value
-                }
+                if value not in ['0', '']:
+                    groceries_data[item_key] = {
+                        'english_name': GROCERIES_1[item_key]['english_name'],
+                        'tamil_name': GROCERIES_1[item_key]['tamil_name'],
+                        'quantity': value
+                    }
                 
             if grocery_instance:
                 grocery_instance.grocerylist = groceries_data
@@ -99,11 +100,12 @@ def createlistformlist2(request):
             for key, value in form.cleaned_data.items():
                 
                 item_key = key.rsplit('_', 1)[0]
-                groceries_data[item_key] = {
-                    'english_name': GROCERIES_2[item_key]['english_name'],
-                    'tamil_name': GROCERIES_2[item_key]['tamil_name'],
-                    'quantity': value
-                }
+                if value not in ['0', '']:
+                    groceries_data[item_key] = {
+                        'english_name': GROCERIES_2[item_key]['english_name'],
+                        'tamil_name': GROCERIES_2[item_key]['tamil_name'],
+                        'quantity': value
+                    }
                 
             if grocery_instance:
                 grocery_instance.grocerylist = groceries_data

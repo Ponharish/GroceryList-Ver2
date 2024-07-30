@@ -3,3 +3,24 @@
 Add it to groceryform1 or groceryform2 (as required)
 update grocerylist1.py or grocerylist2.py (as required)
 update the template - grocery_form_list_1.html or grocery_form_list_2.html
+
+#TO RECOVER DATABSE
+It is important to follow these steps inorder to prevent anyt data loss
+
+Copy the existing dtatbase file from azure website and replace it with the local one before continuing to 
+git commit the new change!! (V IMP)
+
+To get the database file, open azure and navigate to the web app portal
+Click on Development Tools (Present in left side menu ) > and click Advanced Tools
+in the page that opens, gick "go"
+A new tab opens 
+under browse directory, click on Site wwwroot
+click on output.tar.gz
+a zip file will download
+
+in local computer upzip the folder and open it
+inside the folder, a file called "db.sqlite3" will be present 
+take this file and replace it with the existing db.sqlite3 file in project directory present locally
+
+#DOESNT SEEM TO WORK
+
