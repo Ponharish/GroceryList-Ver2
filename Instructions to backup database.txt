@@ -1,0 +1,18 @@
+#TO RECOVER DATABSE
+It is important to follow these steps inorder to prevent any data loss
+
+BEFORE ANY GIT COMMIT, DO FOLLOW THESE STEPS TO TAKE BACKUP
+
+login to the website
+https://grocerylist-harish-f9fzbahvgmake2da.southindia-01.azurewebsites.net/
+
+enter the extension 'download-db'
+
+i.e. The link now looks like
+
+https://grocerylist-harish-f9fzbahvgmake2da.southindia-01.azurewebsites.net/download-db
+
+A db.sqlite3 file will automatically start downloading 
+
+Take this downloaded file and replace it with db.sqlite3 file found inside the local directory
+
