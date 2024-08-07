@@ -37,6 +37,11 @@ class GroceryForm1(forms.Form):
     boost_quantity = forms.CharField(max_length=100, required=False, initial='')
     filtercoffee_quantity = forms.CharField(max_length=100, required=False, initial='')
     ajax_quantity = forms.CharField(max_length=100, required=False, initial='')
+    vimliquid_quantity = forms.CharField(max_length=100, required=False, initial='')
+    vimbar_quantity = forms.CharField(max_length=100, required=False, initial='')
+    surfexcelpowder_quantity = forms.CharField(max_length=100, required=False, initial='')
+    surfexcelbar_quantity = forms.CharField(max_length=100, required=False, initial='')
+    dettolliquid_quantity = forms.CharField(max_length=100, required=False, initial='')
     hotwaterbag_quantity = forms.CharField(max_length=100, required=False, initial='')
     carrybag_quantity = forms.CharField(max_length=100, required=False, initial='')
     smallonion_quantity = forms.CharField(max_length=100, required=False, initial='')
@@ -58,6 +63,7 @@ class GroceryForm1(forms.Form):
     prayeroil_quantity = forms.CharField(max_length=100, required=False, initial='')
     panjuthiri_quantity = forms.CharField(max_length=100, required=False, initial='')
     sandalpowder_quantity = forms.CharField(max_length=100, required=False, initial='')
+    paneerwater_quantity = forms.CharField(max_length=100, required=False, initial='')
     vermicelli_quantity = forms.CharField(max_length=100, required=False, initial='')
     lg_quantity = forms.CharField(max_length=100, required=False, initial='')
     cummin_quantity = forms.CharField(max_length=100, required=False, initial='')
@@ -73,6 +79,7 @@ class GroceryForm1(forms.Form):
     barnyardmillet_quantity = forms.CharField(max_length=100, required=False, initial='')
     mattarice_quantity = forms.CharField(max_length=100, required=False, initial='')
     muttonmasala_quantity = forms.CharField(max_length=100, required=False, initial='')
+    chicken65masala_quantity = forms.CharField(max_length=100, required=False, initial='')
 
 
     notes = forms.CharField(max_length=200, required=False, widget=forms.Textarea(attrs={'rows': 5, 'cols': 50}))

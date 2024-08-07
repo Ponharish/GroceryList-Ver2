@@ -91,8 +91,8 @@ GROCERIES_1 = {
         'quantity': '',
     },
     'basmatirice': {
-        'english_name': 'Basmati Rice',
-        'tamil_name': 'பாஸ்மதி அரிசி',
+        'english_name': 'India Gate Basmati Rice',
+        'tamil_name': 'இந்தியா கேட் பாஸ்மதி அரிசி',
         'quantity': '',
     },
     'rawrice': {
@@ -161,8 +161,8 @@ GROCERIES_1 = {
         'quantity': '',
     },
     'pappadam': {
-        'english_name': 'Pappadam',
-        'tamil_name': 'அப்பளம்',
+        'english_name': 'Maan Mark Pappadam',
+        'tamil_name': 'மான் மார்க் அப்பளம்',
         'quantity': '',
     },
     'boost': {
@@ -178,6 +178,31 @@ GROCERIES_1 = {
     'ajax': {
         'english_name': 'Ajax',
         'tamil_name': 'அஜாக்ஸ்',
+        'quantity': '',
+    },
+    'vimliquid': {
+        'english_name': 'Vim Liquid',
+        'tamil_name': 'விம் லிக்விட்',
+        'quantity': '',
+    },
+    'vimbar': {
+        'english_name': 'Vim Bar',
+        'tamil_name': 'விம் பார்',
+        'quantity': '',
+    },
+    'surfexcelpowder': {
+        'english_name': 'Surf Excel Powder',
+        'tamil_name': 'சர்ப் எக்செல் பவுடர்',
+        'quantity': '',
+    },
+    'surfexcelbar': {
+        'english_name': 'Surf Excel Bar',
+        'tamil_name': 'சர்ப் எக்செல் பார்',
+        'quantity': '',
+    },
+    'dettolliquid': {
+        'english_name': 'Dettol Liquid',
+        'tamil_name': 'டெட்டால் லிக்விட்',
         'quantity': '',
     },
     'hotwaterbag': {
@@ -261,8 +286,8 @@ GROCERIES_1 = {
         'quantity': '',
     },
     'incense': {
-        'english_name': 'Cycle Incense',
-        'tamil_name': 'சைக்கிள் பத்தி',
+        'english_name': 'Cycle Incense 100 sticks',
+        'tamil_name': 'சைக்கிள் 100 பத்தி',
         'quantity': '',
     },
     'sambrani': {
@@ -283,6 +308,11 @@ GROCERIES_1 = {
     'sandalpowder': {
         'english_name': 'Sandal Powder',
         'tamil_name': 'சந்தனம் பொடி',
+        'quantity': '',
+    },
+    'paneerwater': {
+        'english_name': 'Paneer Water',
+        'tamil_name': 'பன்னீர் பாட்டில்',
         'quantity': '',
     },
     'vermicelli': {
@@ -311,8 +341,8 @@ GROCERIES_1 = {
         'quantity': '',
     },
     'bhelpuri': {
-        'english_name': 'Bhel Puri',
-        'tamil_name': 'பெல் பூரி',
+        'english_name': 'Haldirams Bhel Puri',
+        'tamil_name': 'ஹல்டிராம் பேல் பூரி',
         'quantity': '',
     },
     'cardamon': {
@@ -358,6 +388,11 @@ GROCERIES_1 = {
     'muttonmasala': {
         'english_name': 'Mutton Masala',
         'tamil_name': 'மட்டன் மசாலா',
+        'quantity': '',
+    },
+    'chicken65masala': {
+        'english_name': 'Chicken 65 Masala',
+        'tamil_name': 'சிக்கன் 65 மசாலா',
         'quantity': '',
     }
 }
