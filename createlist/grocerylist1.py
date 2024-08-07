@@ -16,7 +16,7 @@ GROCERIES_1 = {
     },
     'brownsugar': {
         'english_name': 'Brown Sugar',
-        'tamil_name': 'கடாரம் சர்க்கரை / நாட்டு சர்க்கரை',
+        'tamil_name': 'பிரவுன் சுகர்',
         'quantity': '',
     },
     'whitesugar': {
@@ -31,7 +31,7 @@ GROCERIES_1 = {
     },
     'dhalluridsplit': {
         'english_name': 'Split Urad Dal',
-        'tamil_name': 'உளுத்தம்பருப்பு',
+        'tamil_name': 'உடைச்ச உளுந்து',
         'quantity': '',
     },
     'toordhall': {
@@ -39,11 +39,7 @@ GROCERIES_1 = {
         'tamil_name': 'உதயம் துவரம் பருப்பு',
         'quantity': '',
     },
-    'splitdhall': {
-        'english_name': 'Split Dal',
-        'tamil_name': 'பருப்பு உடைப்பு',
-        'quantity': '',
-    },
+    
     'splitblackdhall': {
         'english_name': 'Split Black Dal',
         'tamil_name': 'கருப்பு உடைப்பு',
@@ -185,13 +181,13 @@ GROCERIES_1 = {
         'quantity': '',
     },
     'hotwaterbag': {
-        'english_name': 'Hot Water Bag',
-        'tamil_name': 'சூடான நீர்க்குப்பி',
+        'english_name': 'Hot Water Bag 5x8',
+        'tamil_name': 'ஹாட் வாட்டர் பேக் 5x8',
         'quantity': '',
     },
     'carrybag': {
-        'english_name': 'Carry Bag',
-        'tamil_name': 'கேரி பை',
+        'english_name': 'Carry Bag No 3',
+        'tamil_name': 'கேரி பை No 3',
         'quantity': '',
     },
     'smallonion': {
@@ -200,8 +196,8 @@ GROCERIES_1 = {
         'quantity': '',
     },
     'ghee': {
-        'english_name': 'Ghee',
-        'tamil_name': 'நெய்',
+        'english_name': 'GRB Ghee',
+        'tamil_name': 'GRB நெய்',
         'quantity': '',
     },
     'cashewnut': {
@@ -210,8 +206,8 @@ GROCERIES_1 = {
         'quantity': '',
     },
     'murukkuflour': {
-        'english_name': 'Murukku Flour',
-        'tamil_name': 'முறுக்கு மாவு',
+        'english_name': 'Lingam Murukku Flour',
+        'tamil_name': 'லிங்கம் முறுக்கு மாவு',
         'quantity': '',
     },
     'riceflour': {

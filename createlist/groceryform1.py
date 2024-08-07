@@ -9,7 +9,6 @@ class GroceryForm1(forms.Form):
     uriddhall_quantity = forms.CharField(max_length=100, required=False, initial='')
     dhalluridsplit_quantity = forms.CharField(max_length=100, required=False, initial='')
     toordhall_quantity = forms.CharField(max_length=100, required=False, initial='')
-    splitdhall_quantity = forms.CharField(max_length=100, required=False, initial='')
     splitblackdhall_quantity = forms.CharField(max_length=100, required=False, initial='')
     bbengalgramdhall_quantity = forms.CharField(max_length=100, required=False, initial='')
     whitechanna_quantity = forms.CharField(max_length=100, required=False, initial='')

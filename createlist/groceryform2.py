@@ -43,7 +43,6 @@ class GroceryForm2(forms.Form):
     raisins_quantity = forms.CharField(max_length=100, required=False, initial='')
     yeast_quantity = forms.CharField(max_length=100, required=False, initial='')
     oregano_quantity = forms.CharField(max_length=100, required=False, initial='')
-    multi_herb_italian_quantity = forms.CharField(max_length=100, required=False, initial='')
     lg_asafoetida_powder_quantity = forms.CharField(max_length=100, required=False, initial='')
     lg_asafoetida_solid_quantity = forms.CharField(max_length=100, required=False, initial='')
     glucose_quantity = forms.CharField(max_length=100, required=False, initial='')
