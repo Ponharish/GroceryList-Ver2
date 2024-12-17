@@ -68,7 +68,6 @@ def createlistformlist1(request):
                 grocery_instance = GroceriesTable(list = "List1", month=selected_month, year = selected_year, grocerylist=groceries_data, notes=notes)
             grocery_instance.save()
             return redirect('acknowledgeceeation')
-    print(form.fieldNames)
 
     return render(request, "grocery_form_list_1.html", {"form": form, 'fieldNames': form.fieldNames})
 
