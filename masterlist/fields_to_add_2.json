@@ -1,0 +1,688 @@
+{
+    "rocksalt": {
+        "english_name": "Rock Salt",
+        "tamil_name": "கல் உப்பு",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "finesalt": {
+        "english_name": "Fine Salt",
+        "tamil_name": "பொடி உப்பு",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "turmericpowder": {
+        "english_name": "Turmeric Powder",
+        "tamil_name": "மஞ்சள் பொடி",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "sugar": {
+        "english_name": "Sugar",
+        "tamil_name": "சர்க்கரை",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "jaggerypowder": {
+        "english_name": "Jaggery Powder",
+        "tamil_name": "நாட்டு சர்க்கரை",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "sunrisecoffeepowder": {
+        "english_name": "Sunrise Coffee Powder",
+        "tamil_name": "சன்ரைஸ் காபி பொடி",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "narasusudhayamfiltercoffee": {
+        "english_name": "Narasus Udhayam Filter Coffee",
+        "tamil_name": "நரசுஸ் உதயம் ஃபில்டர் காபி",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "udhayamtoordhall": {
+        "english_name": "Udhayam Toor Dhall",
+        "tamil_name": "உதயம் துவரம் பருப்பு",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "udhayamuriddhall": {
+        "english_name": "Udhayam Urid Dhall",
+        "tamil_name": "உதயம் உளுந்து",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "parachuteoil": {
+        "english_name": "Parachute Oil",
+        "tamil_name": "பாரசூட் எண்ணெய்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "surfexcelliquid": {
+        "english_name": "Surf Excel Liquid",
+        "tamil_name": "சர்ஃப் எக்ஸ்செல் லிக்விட்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "surfexcelsoap": {
+        "english_name": "Surf Excel Soap",
+        "tamil_name": "சர்ஃப் எக்ஸ்செல் சோப்பு",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "comfortliquid": {
+        "english_name": "Comfort Liquid",
+        "tamil_name": "கம்பர்ட் லிக்விட்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "himalayababyshampoo": {
+        "english_name": "Himalaya Baby Shampoo",
+        "tamil_name": "ஹிமாலயா பேபி ஷாம்பு",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "meerashampoo": {
+        "english_name": "Meera Shampoo",
+        "tamil_name": "மீரா ஷாம்பு",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "colgatepaste": {
+        "english_name": "Colgate Paste",
+        "tamil_name": "கோல்கேட் பேஸ்ட்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "exoround": {
+        "english_name": "Exo Round",
+        "tamil_name": "எக்சோ ரவுண்டு",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "humamsoap": {
+        "english_name": "Hamam Soap",
+        "tamil_name": "ஹமாம் சோப்பு",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "harpic": {
+        "english_name": "Harpic",
+        "tamil_name": "ஹார்பிக்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "jasmineessence": {
+        "english_name": "Jasmine Essence",
+        "tamil_name": "ஜாஸ்மின் எசன்ஸ்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "prill": {
+        "english_name": "Prill",
+        "tamil_name": "ப்ரில்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "vimliquidyellow": {
+        "english_name": "Vim Liquid Yellow",
+        "tamil_name": "விம் லிக்விட் மஞ்சள்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "corianderseed": {
+        "english_name": "Coriander Seed",
+        "tamil_name": "கொத்தமல்லி விதை",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "soya": {
+        "english_name": "Soya",
+        "tamil_name": "சோயா",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "whitepattani": {
+        "english_name": "White Pattani",
+        "tamil_name": "வெள்ளை பட்டாணி",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "pattanidhall": {
+        "english_name": "Pattani Dhall",
+        "tamil_name": "பட்டாணி பருப்பு",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "whitechanna": {
+        "english_name": "White Channa",
+        "tamil_name": "வெள்ளை கொண்டைக் கடலை",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "roastedgramdhall": {
+        "english_name": "Roasted Gram Dhall",
+        "tamil_name": "பொரிகடலை",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "moongdhall": {
+        "english_name": "Moong Dhall",
+        "tamil_name": "பாசிப்பருப்பு",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "blacksplitdhall": {
+        "english_name": "Black Split Dhall",
+        "tamil_name": "கருப்பு உடைத்த உளுந்து",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "bengalgramdhall": {
+        "english_name": "Bengal Gram Dhall",
+        "tamil_name": "கடலை பருப்பு",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "tamarind": {
+        "english_name": "Tamarind",
+        "tamil_name": "புளி",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "greenbean": {
+        "english_name": "Green Bean",
+        "tamil_name": "பச்சை பயறு",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "basmatirice": {
+        "english_name": "Basmati Rice",
+        "tamil_name": "பாஸ்மதி அரிசி",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "anilsemiya": {
+        "english_name": "Anil Semiya",
+        "tamil_name": "அனில் சேமியா",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "pappadam": {
+        "english_name": "Pappadam",
+        "tamil_name": "அப்பளம்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "pasta": {
+        "english_name": "Pasta",
+        "tamil_name": "பாஸ்தா",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "popcorn": {
+        "english_name": "Popcorn",
+        "tamil_name": "பாப்கார்ன்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "noodles": {
+        "english_name": "Noodles",
+        "tamil_name": "நூடுல்ஸ்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "maggie": {
+        "english_name": "Maggie",
+        "tamil_name": "மேக்கி",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "raisins": {
+        "english_name": "Raisins",
+        "tamil_name": "உலர் திராட்சை",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "yeast": {
+        "english_name": "Yeast",
+        "tamil_name": "ஈஸ்ட்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "oregano": {
+        "english_name": "Oregano",
+        "tamil_name": "ஓரேகானோ",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "lgasafoetidapowder": {
+        "english_name": "LG Asafoetida Powder",
+        "tamil_name": "LG பெருங்காயம் பொடி",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "lgasafoetidasolid": {
+        "english_name": "LG Asafoetida Solid",
+        "tamil_name": "LG பெருங்காயம் கட்டி",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "glucose": {
+        "english_name": "Glucose",
+        "tamil_name": "குளுக்கோஸ்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "cardamon": {
+        "english_name": "Cardamon",
+        "tamil_name": "ஏலக்காய்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "cinnamon": {
+        "english_name": "Cinnamon",
+        "tamil_name": "பட்டை",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "clove": {
+        "english_name": "Clove",
+        "tamil_name": "கிராம்பு",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "chocos": {
+        "english_name": "Chocos",
+        "tamil_name": "சாக்கோஸ்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "gooddaybiscuit": {
+        "english_name": "Good Day Biscuit",
+        "tamil_name": "குட் டே பிஸ்கட்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "nicetimebiscuit": {
+        "english_name": "Nice Time Biscuit",
+        "tamil_name": "நைஸ் டைம் பிஸ்கட்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "milkibikis": {
+        "english_name": "Milki Bikis",
+        "tamil_name": "மில்கி பிகிஸ்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "rasigoldcoconutoil": {
+        "english_name": "Rasi Gold Coconut Oil",
+        "tamil_name": "ராசி கோல்ட் தேங்காய் எண்ணெய்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "rasigoldgingellyoil": {
+        "english_name": "Rasi Gold Gingelly Oil",
+        "tamil_name": "ராசி கோல்ட் நல்லெண்ணெய்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "rasigoldgroundnutoil": {
+        "english_name": "Rasi Gold Groundnut Oil",
+        "tamil_name": "ராசி கோல்ட் கடலை எண்ணெய்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "grbghee": {
+        "english_name": "GRB Ghee",
+        "tamil_name": "GRB நெய்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "reddriedchilli": {
+        "english_name": "Red Dried Chilli",
+        "tamil_name": "சிவப்பு காய்ந்த மிளகாய்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "redchillipowder": {
+        "english_name": "Red Chilli Powder",
+        "tamil_name": "சிவப்பு மிளகாய் பொடி",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "corianderpowder": {
+        "english_name": "Coriander Powder",
+        "tamil_name": "கொத்தமல்லி பொடி",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "maidaflour": {
+        "english_name": "Maida Flour",
+        "tamil_name": "மைதா மாவு",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "rava": {
+        "english_name": "Rava",
+        "tamil_name": "ரவை",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "ragiflour": {
+        "english_name": "Ragi Flour",
+        "tamil_name": "கேழ்வரகு மாவு",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "wheatflour": {
+        "english_name": "Wheat Flour",
+        "tamil_name": "கோதுமை மாவு",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "bengalgramflour": {
+        "english_name": "Bengal Gram Flour",
+        "tamil_name": "கடலை மாவு",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "cornflour": {
+        "english_name": "Corn Flour",
+        "tamil_name": "சோளம் மாவு",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "idyappamflour": {
+        "english_name": "Idyappam Flour",
+        "tamil_name": "இடியப்பம் மாவு",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "krishnabrandhealthflour": {
+        "english_name": "Krishna Brand Health Flour",
+        "tamil_name": "கிருஷ்ணா பிராண்ட் சத்து மாவு",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "vinegar": {
+        "english_name": "Vinegar",
+        "tamil_name": "வினிகர்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "tomatoketchup": {
+        "english_name": "Tomato Ketchup",
+        "tamil_name": "தக்காளி கெச்சப்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "soyasauce": {
+        "english_name": "Soya Sauce",
+        "tamil_name": "சோயா சாஸ்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "sesameseed": {
+        "english_name": "Sesame Seed",
+        "tamil_name": "எள்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "mustard": {
+        "english_name": "Mustard",
+        "tamil_name": "கடுகு",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "pepper": {
+        "english_name": "Pepper",
+        "tamil_name": "மிளகு",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "cumminseed": {
+        "english_name": "Cumin Seed",
+        "tamil_name": "சீரகம்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "fenugreek": {
+        "english_name": "Fenugreek",
+        "tamil_name": "வெந்தயம்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "kasakasa": {
+        "english_name": "Kasa Kasa",
+        "tamil_name": "கசா கசா",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "splitwhitedhall": {
+        "english_name": "Split White Dhall",
+        "tamil_name": "உடைச்ச வெள்ளை உளுந்து",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "gulabjamunmix": {
+        "english_name": "Gulab Jamun Mix",
+        "tamil_name": "குலாப் ஜாமூன் மிக்ஸ்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "chickenkebabpowder": {
+        "english_name": "Chicken Kebab Powder",
+        "tamil_name": "சிக்கன் கபாப் பொடி",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "currymasala": {
+        "english_name": "Curry Masala",
+        "tamil_name": "கறி மசாலா",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "garammasala": {
+        "english_name": "Garam Masala",
+        "tamil_name": "கரம் மசாலா",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "cashewnut": {
+        "english_name": "Cashew Nut",
+        "tamil_name": "முந்திரி",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "jaggery": {
+        "english_name": "Jaggery",
+        "tamil_name": "வெல்லம்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "karuppatti": {
+        "english_name": "Karuppatti",
+        "tamil_name": "கருப்பட்டி",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "cycleincensestick": {
+        "english_name": "Cycle Incense Stick",
+        "tamil_name": "சைக்கிள் பத்தி",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "deepamoil": {
+        "english_name": "Deepam Oil",
+        "tamil_name": "தீபம் எண்ணெய்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "camphor": {
+        "english_name": "Camphor",
+        "tamil_name": "சூடம்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "patchaikarpuram": {
+        "english_name": "Patchai Karpuram",
+        "tamil_name": "பச்சை கற்பூரம்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "computersambrani": {
+        "english_name": "Computer Sambrani",
+        "tamil_name": "கம்ப்யூட்டர் சம்பிராணி",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "radhakrishnaponnirice": {
+        "english_name": "Radha Krishna Ponni Rice",
+        "tamil_name": "ராதா கிருஷ்ணா பொன்னி அரிசி",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "chennaigateponnirice": {
+        "english_name": "Chennai Gate Ponni Rice",
+        "tamil_name": "சென்னை கேட் பொன்னி அரிசி",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "idlyrice": {
+        "english_name": "Idly Rice",
+        "tamil_name": "இட்லி அரிசி",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "garlic": {
+        "english_name": "Garlic",
+        "tamil_name": "பூண்டு",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "smallonion": {
+        "english_name": "Small Onion",
+        "tamil_name": "சின்ன வெங்காயம்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "bigonion": {
+        "english_name": "Big Onion",
+        "tamil_name": "பெரிய வெங்காயம்",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "ginger": {
+        "english_name": "Ginger",
+        "tamil_name": "இஞ்சி",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    },
+    "himalayahandwash": {
+        "english_name": "Himalaya Hand Wash",
+        "tamil_name": "ஹிமாலயா கை கழுவி",
+        "quantity": "",
+        "max_length": 100,
+        "required": false
+    }
+}
