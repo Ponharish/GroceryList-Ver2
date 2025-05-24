@@ -3,9 +3,7 @@ from django import forms
 class GroceryForm(forms.Form):
     def __init__(self, *args, fields_to_add=None, **kwargs):
         super().__init__(*args, **kwargs)
-        self.fieldNames = []  # Collect English and Tamil names for all fields
-
-        # Dynamically add fields
+        self.fieldNames = []
         flag = 0
         notes_field_options = None
         if fields_to_add:
@@ -14,13 +12,11 @@ class GroceryForm(forms.Form):
                     notes_field_options = field_options
                     flag = 1
                 else:
-                    # Add English and Tamil names to the fieldNames list
                     self.fieldNames.append({
                         "field_name": field_name,
                         "english_name": field_options.get("english_name", ""),
                         "tamil_name": field_options.get("tamil_name", "")
                     })
-                    # Add the field to the form
                     self.fields[field_name] = forms.CharField(
                         max_length=field_options.get("max_length", 100),
                         required=field_options.get("required", False),
