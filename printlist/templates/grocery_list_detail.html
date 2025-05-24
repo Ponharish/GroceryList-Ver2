@@ -19,6 +19,16 @@
             white-space: pre-line; 
             margin-left: 9px;
         }
+        .printbutton {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px; /* optional spacing */
+        }
+        @media print {
+            .no-print {
+                display: none;
+            }
+        }
     </style>
 
 <body bgcolor = #CAEEC4>
@@ -57,6 +67,13 @@
 
     <h2>Notes</h2>
     <p>{{ notes }}</p>
+
+    <br>
+    <div class="printbutton no-print">
+        <button onclick="window.print()">Print | பிரிண்ட்</button>
+    </div>  
+    <br>
+
 
     
 </body>
