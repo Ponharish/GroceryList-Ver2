@@ -1,22 +1,38 @@
-import os
 import json
+import os
+import pyodbc
+
 from django.conf import settings
 from django import forms
 
 def load_master_fields_2():
-    json_file_path = os.path.join(settings.BASE_DIR, 'masterlist', 'fields_to_add_2.json')
+    conn = pyodbc.connect(
+        f"DRIVER={os.getenv('DB_DRIVER')};"
+        f"SERVER={os.getenv('DB_HOST')};"
+        f"DATABASE={os.getenv('DB_NAME')};"
+        f"UID={os.getenv('DB_USER')};"
+        f"PWD={os.getenv('DB_PASSWORD')};"
+        "Encrypt=yes;"
+        "TrustServerCertificate=no;"
+    )
 
-    try:
-        # Open and load the JSON file
-        with open(json_file_path, 'r', encoding='utf-8') as json_file:
-            fields_to_add_2 =  json.load(json_file)
-    except FileNotFoundError:
-        print(f"Error: The file {json_file_path} does not exist.")
-        return {}
-    except json.JSONDecodeError as e:
-        print(f"Error decoding JSON: {e}")
-        return {}
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM Groceries.MasterList2")
+    rows = cursor.fetchall()
+    cursor.close() 
+    conn.close() 
     
+    fields_to_add_2 = {}
+    for row in rows:
+        heading = ''.join(row[0].split()).lower()
+        body = {'english_name' : row[0],
+                'tamil_name'   : row[1],
+                'quantity'     : '',
+                'max_length'   : 100,
+                'required'     : False}
+
+        fields_to_add_2[heading] = body
+        
     fields_to_add_2["notes"] = {
         "label": "Notes",
         "english_name": "Notes",

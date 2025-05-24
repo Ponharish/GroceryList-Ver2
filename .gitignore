@@ -7,3 +7,4 @@ createlist/__pycache__/formGenerator.cpython-311.pyc
 createlist/__pycache__/groceryform1_fields.cpython-311.pyc
 createlist/__pycache__/groceryform2_fields.cpython-311.pyc
 GroceryList/__pycache__/settings.cpython-311.pyc
+.env
