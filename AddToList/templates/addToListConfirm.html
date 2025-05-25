@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Groceries</title>
+        
+    </head>
+    <style>
+
+        .header {
+            background-color: rgb(238, 232, 196);
+        }
+        
+        .header img {
+            float: left;
+            width: 100px;
+            height: 100px;
+            padding-left: 25px;
+            background-color: rgb(238, 232, 196);
+        }
+
+        .header h1 {
+            position: relative;
+            top: 18px;
+            left: 10px;
+            text-align: center;
+            
+        }
+        .form {
+            text-align: center;
+        }
+        
+        .error {
+          text-align: center;
+          color: red;
+          font-size: 22px;
+        }
+        table {
+            /* width: 30%; */
+            margin: auto; /* Centers the table */
+        }
+
+        th, td {
+            padding: 20px; /* Increases cell padding */
+        }
+        
+    </style>
+    <body bgcolor = #CAEEC4>
+        <div class = "header">
+            <br>  
+            <font color = #377CDE><h1>Confirm Details</h1></font>
+            <br><br>
+            <hr color=#00008B>
+        </div>
+
+    <div class = 'form'>
+        <br><br>
+    <form method="post">
+        {% csrf_token %}
+        <table>
+            <tr valign="middle">
+                <td colspan="2" align="center"><font size = 6>Verify the following</font></td>
+            </tr>
+
+            <tr valign="middle">
+                <td align="right"><label for="list">Groceries to be added to List</label></td>
+                <td align="left">
+                    <b>{{ selected_list }}</b>
+                </td>
+            </tr>
+
+            <tr valign="middle">
+                <td align="right"><label for="english_name">Name of grocery in English:</label></td>
+                <td align="left">
+                    <b>{{ english_name }}</b>
+                </td>
+            </tr>
+
+            <tr valign="middle">
+                <td align="right"><label for="tamil_name">Name of grocery in Tamil:</label></td>
+                <td align="left">
+                    <b>{{ tamil_name }}</b>
+                </td>
+            </tr>
+
+        </table>
+        <br><br>  
+        <button type="submit">Add to List</button>
+        
+    </form>
+    </div>
+</body>
+</html>

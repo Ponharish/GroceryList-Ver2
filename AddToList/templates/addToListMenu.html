@@ -1,0 +1,92 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Groceries</title>
+    </head>
+    <style>
+
+        .header {
+            background-color: rgb(238, 232, 196);
+        }      
+        .header img {
+            float: left;
+            width: 100px;
+            height: 100px;
+            padding-left: 25px;
+            background-color: rgb(238, 232, 196);
+        }
+        .header h1 {
+            position: relative;
+            top: 18px;
+            left: 10px;
+            text-align: center;      
+        }
+        .form {
+            text-align: center;
+        } 
+        .error {
+          text-align: center;
+          color: red;
+          font-size: 22px;
+        }
+    </style>
+    <body bgcolor = #CAEEC4>
+        <div class = "header">
+            <br>      
+            <font color = #377CDE><h1>Add Grocery To Master List</h1></font>
+            <br><br>
+            <hr color=#00008B>
+        </div>
+
+        <div class = "form">
+            <br>
+            <form method="post" > 
+                {% csrf_token %}
+                <table cellpadding = 10; align = center>
+                    <tr valign = "middle">
+                        <td align = "right"><label for="list">Select List</label></td>
+                        <td align = "left"><select id="list" name="list">
+                            <option value="List1" {% if selected_list == "List1" %}selected{% endif %}>List 1</option>
+                            <option value="List2" {% if selected_list == "List2" %}selected{% endif %}>List 2</option>
+                        </select></td>
+                    </tr>
+                    <tr valign = "middle">
+                        <td></td>
+                        <td align = "Left">
+                            List 1 &rarr; Singapore <br>
+                            List 2 &rarr; Eruvadi 
+                        </td>
+                    </tr>
+
+                    <tr valign="middle">
+                        <td align="right"><label for="english_name">Name of grocery in <b>English</b>:</label></td>
+                        <td align="left">
+                            <input type="text" id="english_name" name="english_name" required  value="{{ english_name|default:'' }}">
+                        </td>
+                    </tr>
+                    
+                    <tr valign="middle">
+                        <td align="right"><label for="tamil_name">Name of grocery in <b>Tamil</b>:</label></td>
+                        <td align="left">
+                            <input type="text" id="tamil_name" name="tamil_name" required pattern=".*[\u0B80-\u0BFF].*" title="Must be in Tamil" value="{{ tamil_name|default:'' }}">
+                        </td>
+                    </tr>
+                </table>
+                <br><br>
+                
+                <input type="submit" value="Submit"><br><br>
+                <a href = "../"><input type="button" id = "Back" name = "Back" value="Home"></a> <br>
+        
+            </form>
+        </div>
+        <div class = "error">
+            {% if error_message %}  
+                <br><br>
+
+                <div style="color: red;">{{ error_message|linebreaksbr }}</div>
+            {% endif %}
+        </div>
+        
+    </body>
+</html>

@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     "homepage",
     "createlist",
     "printlist",
+    "AddToList",
 ]
 
 MIDDLEWARE = [
@@ -60,7 +61,8 @@ TEMPLATES = [
         "BACKEND": "django.template.backends.django.DjangoTemplates",
         "DIRS": [os.path.join(BASE_DIR, 'homepage/templates'),
                 os.path.join(BASE_DIR, 'createlist/templates'),
-                os.path.join(BASE_DIR, 'printlist/templates'),],
+                os.path.join(BASE_DIR, 'printlist/templates'),
+                os.path.join(BASE_DIR, 'AddToList/templates'),],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
