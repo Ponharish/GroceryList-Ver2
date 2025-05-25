@@ -22,4 +22,5 @@ urlpatterns = [
     path("", include('homepage.urls')),
     path("createlist/", include('createlist.urls')),
     path("printlist/", include('printlist.urls')),
+    path("AddToList/", include('AddToList.urls')),
 ]
