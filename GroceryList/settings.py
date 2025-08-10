@@ -79,6 +79,7 @@ WSGI_APPLICATION = "GroceryList.wsgi.application"
 CSRF_COOKIE_SECURE = True
 CSRF_TRUSTED_ORIGINS = [
     'https://grocerylist-harish-f9fzbahvgmake2da.southindia-01.azurewebsites.net',
+    'https://grocerylistharish-erdefgcybrd5bybp.centralindia-01.azurewebsites.net'
 ]
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
